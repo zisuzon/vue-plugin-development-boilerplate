@@ -5,7 +5,7 @@
 yarn install
 ```
 
-### To run the Component stand alone
+### To run and test the Component
 ```
 yarn dev
 ```
