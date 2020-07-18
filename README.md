@@ -20,3 +20,23 @@ Change the default component name according to your component and update the nam
 ```
 src/TheComponent.vue
 ```
+
+### Publish to NPM
+
+```
+npm publish --access public
+```
+
+### Use published plugin 
+
+Locally, in a component
+```
+import MyButton from '@zisuzon/v-testing-plugin'
+```
+
+Globally, in a "main.js"
+```
+import MyButton from '@zisuzon/v-testing-plugin'
+
+Vue.component('MyButtonGlobal', MyButtonGlobal)
+```
